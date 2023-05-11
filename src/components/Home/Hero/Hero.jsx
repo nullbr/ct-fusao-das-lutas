@@ -1,5 +1,6 @@
-import MainButton from "../../Shared/MainButton";
 import "./Hero.css";
+import HeroImg from "../../../assets/images/logo/hero.png";
+import MainButton from "../../Shared/MainButton";
 import { useTranslation } from "react-i18next";
 
 function Hero() {
@@ -11,7 +12,7 @@ function Hero() {
           {/* hero section */}
           <div className="animate-fade-in flex flex-col text-white justify-center text-center h-full px-20 gap-20">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fbackground%2Fbackground_logo.png?alt=media&token=3b4017d9-927b-4b43-87d8-cbfecf5f0fb1"
+              src={HeroImg}
               alt="text_bg"
               className="max-w-full max-h-[40vh] min620:max-h-full"
             />

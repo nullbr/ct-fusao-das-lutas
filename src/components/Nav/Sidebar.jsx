@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import LogoSide from "../../assets/images/logo/logo-footer.png";
+import LogoSide from "../../assets/images/logo/logo_full.png";
 
 const Sidebar = ({ toggleSideBar, t }) => {
   useEffect(() => {
@@ -23,10 +23,14 @@ const Sidebar = ({ toggleSideBar, t }) => {
     <>
       <div className="flex">
         {/* Content */}
-        <div className="flex flex-col w-[40rem] max-w-full h-screen bg-slightly-transparent py-10 px-[45px] min620:pb-[10rem] gap-24 overflow-x-hidden">
+        <div className="blur-bg flex flex-col w-[40rem] max-w-full h-screen shadow-xl py-10 px-[45px] min620:pb-[10rem] gap-24 overflow-x-hidden">
           {/* logo & X */}
           <div className="flex justify-between items-center">
-            <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
+            <img
+              src={LogoSide}
+              alt="logo_img"
+              className="w-2/3 max-w-[30rem]"
+            />
             <i
               onClick={toggleSideBar}
               className="fa-solid fa-xmark text-signature-gold text-[3.3rem] cursor-pointer"
@@ -94,11 +98,6 @@ const Sidebar = ({ toggleSideBar, t }) => {
             </div>
           </div>
         </div>
-        {/* Allow user to click outside the box to close */}
-        <div
-          className="close-sidebar-div cursor-pointer bg-transparent-gray min620:bg-transparent"
-          onClick={toggleSideBar}
-        ></div>
       </div>
     </>
   );

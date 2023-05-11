@@ -1,10 +1,15 @@
 .hero-section {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fbackground%2Fbackground-wide.png?alt=media&token=ee270a96-0b9b-45c0-a451-807ca02634bf");
+  background: rgb(209, 215, 219);
+  background: radial-gradient(
+    circle,
+    rgba(209, 215, 219, 1) 0%,
+    rgba(120, 176, 222, 0.7357536764705883) 37%,
+    rgba(0, 81, 163, 0.8225884103641457) 59%,
+    rgba(4, 35, 84, 0.9122242647058824) 81%,
+    rgba(12, 12, 14, 1) 100%
+  );
   width: 100%;
   height: calc(100vh + 5.5rem);
-  object-fit: cover;
-  background-size: cover;
-  background-position: center center;
 }
 
 .animate-fade-in {
@@ -19,11 +24,5 @@
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media (max-width: 800px) {
-  .hero-section {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fbackground%2Fbackground_mobile.png?alt=media&token=303f2dce-9291-408b-9072-c459f20ecb60");
   }
 }

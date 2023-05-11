@@ -1,7 +1,18 @@
 /* css for all pages */
 
+/* blur background */
+.blur-bg {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Set the background color with transparency */
+  backdrop-filter: blur(8px); /* Add a blur filter to the navbar */
+}
+
 .loading-bg {
-  background: rgb(203, 161, 53);
+  background: #78b0de;
   background: linear-gradient(
     143deg,
     rgba(203, 161, 53, 0.5902439024390245) 0%,

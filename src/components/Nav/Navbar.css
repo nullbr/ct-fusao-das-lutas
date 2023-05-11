@@ -2,16 +2,8 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
 
-.close-nav-div {
-  width: calc(100% - 20rem);
-}
-
-.close-sidebar-div {
-  width: calc(100% - 40rem);
-}
-
 a.active {
-  color: #cba135;
+  color: #78b0de;
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }

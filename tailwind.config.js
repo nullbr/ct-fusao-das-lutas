@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        "signature-gold": "#CBA135",
+        "signature-gold": "#78b0de",
         gray: "#555",
         "light-gray": "#DAE7E1",
         "subtitle-gray": "#a0a0a0",
@@ -22,5 +23,5 @@ module.exports = {
       min375: { max: "375px" },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
