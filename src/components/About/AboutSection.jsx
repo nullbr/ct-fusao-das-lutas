@@ -1,6 +1,8 @@
 import { useLocation } from "react-router-dom";
 import TitleBg from "../../assets/images/shared/paint-stroke-gold.svg";
+import Trainer from "../../assets/images/AboutPage/trainer.png";
 import MainButton from "../Shared/MainButton";
+
 import { useTranslation } from "react-i18next";
 
 function AboutSection() {
@@ -45,10 +47,10 @@ function AboutSection() {
           </div>
         </div>
         {/* img side */}
-        <div className="flex justify-end h-full md1000:w-full md1000:justify-center">
+        <div className="flex h-full md1000:w-full justify-center pt-10">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fhome%2Fequipe.png?alt=media&token=b5ea3dfd-64b0-4b46-846a-cc6345e0ebb6"
-            alt="brushes"
+            src={Trainer}
+            alt="trainer"
             className="rounded-r-xl md1000:rounded-b-xl md1000:rounded-none"
           />
         </div>

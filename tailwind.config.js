@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "signature-gold": "#78b0de",
+        "signature-gold": "#042354",
         gray: "#555",
         "light-gray": "#DAE7E1",
         "subtitle-gray": "#a0a0a0",

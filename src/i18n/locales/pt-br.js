@@ -37,9 +37,9 @@ const translations = {
             "Nosso time de profissionais são qualificados e experientes, e todos serviços prestados são de alta qualidade.",
         },
         space: {
-          title: "Ambiente",
+          title: "Progresso",
           description:
-            "Oferecemos um ambiente confortável e acolhedor, com uma atmosfera relaxante para os nossos clientes.",
+            "Trabalhamos guiamos e damos suporte para o ajudar a alcançar o sucesso passo a passo.",
         },
         price: {
           title: "Preços",
@@ -60,9 +60,9 @@ const translations = {
 
     aboutUs: {
       title: "Sobre Nós",
-      subtitle: "Seu Lugar Para Brilhar e se Cuidar",
+      subtitle: "Take Your Health And Body To Next Level",
       description:
-        "CT Fusão das Lutas, onde você encontra beleza e bem estar! Fundado por mãe e filha, Juarezita e Gisely, este salão é o destino ideal para quem procura um tratamento de beleza de alta qualidade e um ambiente descontraído e amigável. Com uma equipe de profissionais experientes e altamente qualificados.",
+        "Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.",
       team: {
         title: "Equipe",
         subtitle: "A equipe de profissionais que transforma seu visual!",
