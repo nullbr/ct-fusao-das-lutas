@@ -16,6 +16,13 @@ const translations = {
       social: "Instagram",
       all: "Todos",
       period: "Período",
+      days: {
+        monday: "Segunda",
+        tuesday: "Terça",
+        wednesday: "Quarta",
+        thursday: "Quinta",
+        friday: "Sexta",
+      },
     },
 
     nav: {

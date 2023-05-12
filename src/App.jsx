@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import { lazy } from "react";
+import Schedule from "./components/Schedule";
 
 // Not found
 const PageNotFound = lazy(() => import("./components/PageNotFound"));
@@ -23,6 +24,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />}></Route>
+          <Route path="schedule" element={<Schedule />}></Route>
 
           <Route path="*" element={<PageNotFound />} />
         </Route>

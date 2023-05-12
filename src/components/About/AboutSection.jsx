@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import TitleBg from "../../assets/images/shared/paint-stroke-gold.svg";
-import Trainer from "../../assets/images/AboutPage/trainer.png";
+import Hero from "../../assets/images/logo/hero.png";
 import MainButton from "../Shared/MainButton";
 
 import { useTranslation } from "react-i18next";
@@ -47,9 +47,9 @@ function AboutSection() {
           </div>
         </div>
         {/* img side */}
-        <div className="flex h-full md1000:w-full justify-center pt-10">
+        <div className="flex h-full md1000:w-full justify-center p-10">
           <img
-            src={Trainer}
+            src={Hero}
             alt="trainer"
             className="rounded-r-xl md1000:rounded-b-xl md1000:rounded-none"
           />

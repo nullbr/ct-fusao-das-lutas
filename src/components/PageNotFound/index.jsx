@@ -4,20 +4,14 @@ const PageNotFound = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col gap-5 justify-center h-screen w-full bg-gradient-to-t from-white to-green-900">
-      <h1
-        className="self-center text-9xl font-bold h-fit text-transparent"
-        style={{
-          background: "-webkit-linear-gradient(#eee, #CBA135)",
-          WebkitBackgroundClip: "text",
-        }}
-      >
+    <header className="flex flex-col gap-5 justify-center h-screen w-full">
+      <h1 className="self-center text-9xl font-bold h-fit text-slate-200">
         404
       </h1>
-      <h2 className="self-center text-3xl text-gray">
+      <h2 className="self-center text-3xl text-slate-400">
         {t("defaults.pageNotFound")}
       </h2>
-    </div>
+    </header>
   );
 };
 
