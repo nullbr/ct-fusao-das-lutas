@@ -93,13 +93,13 @@ function Navbar({ admin }) {
             {/* mobileNav */}
             <i
               onClick={toggleMobileNav}
-              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-main ease-in duration-200`}
+              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-secondary ease-in duration-200`}
             ></i>
 
             {/* sidebar */}
             <i
               onClick={toggleSideBar}
-              className={`fa-regular fa-chart-bar text-4xl cursor-pointer hover:text-main ease-in duration-200`}
+              className={`fa-regular fa-chart-bar text-4xl cursor-pointer hover:text-secondary ease-in duration-200`}
             ></i>
           </div>
 

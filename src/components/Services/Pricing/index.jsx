@@ -10,7 +10,7 @@ const Pricing = () => {
   const { t } = useTranslation();
   return (
     <>
-      <section id="pricing" className="pricing-section relative">
+      <div className="pricing-section relative">
         <div className="container page-padding py-[12rem] ">
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
@@ -30,7 +30,7 @@ const Pricing = () => {
             </p>
           </div>
           {/* pricing boxes */}
-          <div className="flex gap-10 mt-32 relative z-[2] md1000:flex-col md1000:items-center ">
+          <div className="flex gap-10 mt-32 relative md1000:flex-col md1000:items-center ">
             <PricingBox img={Img1} price="100" service={t("services.serv1")} />
             <PricingBox img={Img2} price="100" service={t("services.serv2")} />
             <PricingBox
@@ -40,7 +40,7 @@ const Pricing = () => {
             />
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

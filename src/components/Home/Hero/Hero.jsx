@@ -42,7 +42,7 @@ function Hero() {
           </p>
           <span className="w-[35px] bg-main h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
-            <i className="fa-brands rotate-90 hover:text-main  fa-instagram text-3xl cursor-pointer ease-in duration-200 min800:rotate-0"></i>
+            <i className="fa-brands rotate-90 hover:text-secondary  fa-instagram text-3xl cursor-pointer ease-in duration-200 min800:rotate-0"></i>
           </div>
         </a>
       </section>

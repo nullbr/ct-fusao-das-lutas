@@ -13,7 +13,7 @@ const MobileNav = ({ toggleMobileNav, mobileNav, t, admin }) => {
           <ul className="flex flex-col gap-10 text-end">
             <i
               onClick={toggleMobileNav}
-              className="fa-solid fa-xmark text-main text-[3.3rem] cursor-pointer"
+              className="fa-solid fa-xmark text-secondary text-[3.3rem] cursor-pointer"
             ></i>
 
             {/* Client nav Links */}
