@@ -7,68 +7,77 @@ import Wednesday from "./Wednesday";
 import Thursday from "./Thursday";
 import Friday from "./Friday";
 
+const DayButton = ({ day, setDay, text, dayNum }) => {
+  return (
+    <button
+      type="button"
+      onClick={() => setDay(dayNum)}
+      className={`${
+        day === dayNum ? "bg-secondary text-white" : "bg-[#f2f2f2]"
+      } text-[15px] font-bold py-[9px] px-[32px] rounded-full hover:bg-secondary ease-in duration-200 shadow-xl hover:text-white`}
+    >
+      {text}
+    </button>
+  );
+};
+
 const Schedule = () => {
   const { t } = useTranslation();
-  const { day, setDay } = useState(1);
-
-  console.log(day);
+  const [day, setDay] = useState(1);
 
   return (
     <>
-      <section className="">
+      <section>
         <PagesHeader pageTitle="Schedule by Day" />
 
-        {/* schedule */}
-        <div className="container page-padding py-[10rem]">
-          {/* fiter buttons */}
-          <div className="flex flex-wrap gap-4 justify-center">
-            <button
-              type="button"
-              onClick={() => setDay(1)}
-              className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
-            >
-              Monday
-            </button>
+        <main className="pb-10">
+          {/* schedule */}
+          <div className="container page-padding pt-20 min620:pt-10">
+            {/* fiter buttons */}
+            <div className="flex flex-wrap gap-4 justify-center">
+              <DayButton
+                day={day}
+                setDay={setDay}
+                text={t("defaults.days.monday")}
+                dayNum={1}
+              />
 
-            <button
-              type="button"
-              onClick={() => setDay(2)}
-              className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
-            >
-              Tuesday
-            </button>
+              <DayButton
+                day={day}
+                setDay={setDay}
+                text={t("defaults.days.tuesday")}
+                dayNum={2}
+              />
 
-            <button
-              type="button"
-              onClick={() => setDay(3)}
-              className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
-            >
-              Wednesday
-            </button>
+              <DayButton
+                day={day}
+                setDay={setDay}
+                text={t("defaults.days.wednesday")}
+                dayNum={3}
+              />
 
-            <button
-              type="button"
-              onClick={() => setDay(4)}
-              className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
-            >
-              Thursday
-            </button>
+              <DayButton
+                day={day}
+                setDay={setDay}
+                text={t("defaults.days.thursday")}
+                dayNum={4}
+              />
 
-            <button
-              type="button"
-              onClick={() => setDay(5)}
-              className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] bg-[#ff0336] ease-in duration-200 hover:shadow-2xl text-white "
-            >
-              Friday
-            </button>
+              <DayButton
+                day={day}
+                setDay={setDay}
+                text={t("defaults.days.friday")}
+                dayNum={5}
+              />
+            </div>
           </div>
-        </div>
 
-        {day === 1 && <Monday />}
-        {day === 2 && <Tuesday />}
-        {day === 3 && <Wednesday />}
-        {day === 4 && <Thursday />}
-        {day === 5 && <Friday />}
+          {day === 1 && <Monday />}
+          {day === 2 && <Tuesday />}
+          {day === 3 && <Wednesday />}
+          {day === 4 && <Thursday />}
+          {day === 5 && <Friday />}
+        </main>
       </section>
     </>
   );

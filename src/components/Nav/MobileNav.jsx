@@ -39,14 +39,17 @@ const MobileNav = ({ toggleMobileNav, mobileNav, t, admin }) => {
                 {t("nav.about")}
               </NavLink>
             </li>
-            {/* <li onClick={toggleMobileNav}>
-                  <NavLink
-                    className="text-[2rem] font-medium hover:text-secondary ease-in duration-200"
-                    to="/schedules/monday"
-                  >
-                    {t("nav.schedules")}
-                  </NavLink>
-                </li> */}
+            <li onClick={toggleMobileNav}>
+              <NavLink
+                id="schedule"
+                exact="true"
+                activeclassname="active"
+                className="text-[2rem] font-medium hover:text-secondary ease-in duration-200"
+                to="/schedule"
+              >
+                {t("nav.schedule")}
+              </NavLink>
+            </li>
             <li onClick={toggleMobileNav}>
               <NavLink
                 id="gallery"

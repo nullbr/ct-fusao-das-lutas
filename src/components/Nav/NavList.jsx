@@ -33,12 +33,19 @@ function NavList({ t }) {
             {t("nav.gallery")}
           </NavLink>
         </li>
-        {/* <li
+        <li
           style={{ transition: "all 0.3s" }}
           className="cursor-pointer hover:text-secondary"
         >
-          <NavLink to={"/schedules/monday"}>{t("nav.schedules")}</NavLink>
-        </li> */}
+          <NavLink
+            id="schedule"
+            exact="true"
+            activeclassname="active"
+            to={"/schedule"}
+          >
+            {t("nav.schedule")}
+          </NavLink>
+        </li>
         <li
           style={{ transition: "all 0.3s" }}
           className="cursor-pointer hover:text-secondary"

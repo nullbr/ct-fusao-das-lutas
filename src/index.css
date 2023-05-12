@@ -44,3 +44,9 @@ main {
   min-height: calc(100vh - 600px);
   margin: 0 auto;
 }
+
+@media screen and (max-width: 620px) {
+  main {
+    min-height: unset;
+  }
+}

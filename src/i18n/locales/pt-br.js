@@ -28,7 +28,7 @@ const translations = {
     nav: {
       home: "Início",
       about: "Sobre",
-      schedule: "Agende",
+      schedule: "Agenda",
       gallery: "Galeria",
       contact: "Contato",
       services: "Aulas",
@@ -117,65 +117,13 @@ const translations = {
       serv3: "Judô",
     },
 
-    admin: {
-      title: "Gerenciamento",
-
-      nav: {
-        schedule: "Agenda",
-        workers: "Equipe",
-        clients: "Clientes",
+    schedule: {
+      classes: {
+        name1: "Jiu-Jitsu",
+        time1: "20:30 - 21:30",
+        name2: "Muay Thai",
+        time2: "7:00 - 8:00",
       },
-
-      schedule: {
-        time: "Horário",
-        to: "à",
-        service: "Serviço",
-        professional: "Profissional",
-        client: "Cliente",
-        scheduled: "Agendamentos",
-      },
-
-      worker: {
-        job: "Prática",
-        createAt: "Início",
-        social: "Instagram",
-      },
-
-      client: {
-        createdAt: "Início",
-        birthday: "Aniversário",
-      },
-
-      form: {
-        firstName: "Nome",
-        lastName: "Sobrenome",
-      },
-    },
-
-    login: {
-      fieldsError: "Por favor, preecha todos os campos.",
-      email: "email",
-      emailExample: "exemplo@email.com",
-      password: "senha",
-      showPassword: "Mostrar senha",
-      new: "Novo usuário?",
-      forgotPass: "Esqueceu a senha?",
-      recover: "Recuperar Senha",
-    },
-
-    signUp: {
-      repeatPass: "Confirmar Senha",
-      current: "Já possui conta?",
-      passwordNoMatch: "Senhas não são iguais",
-    },
-
-    editProfile: {
-      title: "Editar Perfil",
-      fieldsError: "Necessário inserir novo email ou senha.",
-      currentPassword: "senha atual",
-      showCurrentPassword: "Mostrar Senha Atual",
-      newUser: "Criar novo usuário?",
-      noCurrentPassword: "Necessário inserir senha atual.",
     },
   },
 };
