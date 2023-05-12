@@ -1,13 +1,11 @@
 import "./index.css";
 import { useEffect } from "react";
 // import { featServices } from "./services";
-import { useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
 import PagesHeader from "../Shared/PagesHeader";
 import Featured from "./Featured";
 
 const Services = () => {
-  const dispatch = useDispatch();
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -19,7 +17,9 @@ const Services = () => {
       <section>
         <PagesHeader pageTitle={t("nav.services")} />
 
-        <Featured t={t} />
+        <main>
+          <Featured t={t} />
+        </main>
 
         {/* <div className="container grid grid-cols-3 md1000:grid-cols-2 min620:grid-cols-1 gap-12 page-padding py-[10rem] text-left">
           {featServices.map((service, idx) => {

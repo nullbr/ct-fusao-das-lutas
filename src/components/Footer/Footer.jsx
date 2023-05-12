@@ -39,7 +39,7 @@ function Footer() {
               to="/services"
               className="flex flex-col gap-3 relative w-3/12 min620:w-full text-center"
             >
-              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-main">
+              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-secondary">
                 {t("services.featTitle")}
               </p>
 
@@ -60,7 +60,7 @@ function Footer() {
               to="/contact"
               className="flex flex-col gap-8 relative w-4/12 min620:w-full text-center"
             >
-              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-main">
+              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-secondary">
                 {t("contactUs.hours")}
               </p>
 

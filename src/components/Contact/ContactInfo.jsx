@@ -9,7 +9,7 @@ const ContactInfo = ({ t }) => {
       </p>
       <div className="grid grid-cols-2 grid-rows-2 gap-y-20 min620:grid-cols-1 min620:mx-auto min620:text-center">
         <div className="flex flex-col relative">
-          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-main">
+          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
             {t("contactUs.address")}
           </h3>
           <a
@@ -26,7 +26,7 @@ const ContactInfo = ({ t }) => {
         </div>
         {/* hours */}
         <div className="flex flex-col relative">
-          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-main">
+          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
             {t("contactUs.hours")}
           </h3>
           <div className="text-[15px] font-medium text-[#646464]">
@@ -40,7 +40,7 @@ const ContactInfo = ({ t }) => {
         </div>
         {/* contact info */}
         <div className="flex flex-col relative">
-          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-main">
+          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
             {t("contactUs.title")}
           </h3>
           <div className="text-[15px] font-medium text-[#646464]">
@@ -66,7 +66,7 @@ const ContactInfo = ({ t }) => {
         </div>
         {/* social */}
         <div className="flex flex-col relative min620:items-center">
-          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-main">
+          <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
             {t("defaults.followUs")}
           </h3>
           <a

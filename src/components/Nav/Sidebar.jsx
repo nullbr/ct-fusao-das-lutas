@@ -56,7 +56,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-main cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-location-dot text-main"></i>
                 &nbsp; {t("contactUs.addressLine1")}
                 <br />
@@ -70,13 +70,13 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-main cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-phone text-main"></i>
                 &nbsp; {t("contactUs.phoneNumber")}
               </p>
             </a>
             <a href={`mailto:${t("contactUs.email")}`}>
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-main cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-envelope text-main"></i>
                 &nbsp; {t("contactUs.email")}
               </p>

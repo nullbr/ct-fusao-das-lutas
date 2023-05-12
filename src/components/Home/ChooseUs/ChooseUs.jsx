@@ -14,7 +14,7 @@ function ChooseUs() {
           <div className="flex md1000:flex-col items-center gap-10 p-20 min800:p-10 md1000:justify-center bg-white shadow-lg rounded-xl">
             {/* title */}
             <div>
-              <h2 className="text-[2rem] md1000:text-center font-bold mb-10 underline underline-offset-8 decoration-4 decoration-main">
+              <h2 className="text-[2rem] md1000:text-center font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
                 {t("home.chooseUs.title")}
               </h2>
               <p className="text-[16px] text-[#646464] font-medium text-justify">

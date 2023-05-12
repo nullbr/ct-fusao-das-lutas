@@ -27,10 +27,10 @@ const Contact = () => {
           </Suspense>
         </div>
         {/* map */}
-        <div className="container">
+        <div className="w-screen">
           <iframe
             title="maps"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14625.00786099906!2d-48.468732!3d-23.5952949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf12ac1eb5a78f%3A0x6e9af4c3a2643e75!2sCT Fusão das Lutas!5e0!3m2!1sen!2sbr!4v1681853979425!5m2!1sen!2sbr"
+            src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=R.%20Franco%20P%C3%B3li,%20126%20A%20-%20Centro,%20Campina%20do%20Monte%20Alegre%20-%20SP,%2018245-000+(CT%20Fus%C3%A3o%20das%20Lutas)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             style={{
               width: "100%",
               height: "45rem",

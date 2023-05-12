@@ -41,6 +41,6 @@ section {
 
 main {
   max-width: 124rem;
-  min-height: calc(100vh - 400px);
+  min-height: calc(100vh - 600px);
   margin: 0 auto;
 }
