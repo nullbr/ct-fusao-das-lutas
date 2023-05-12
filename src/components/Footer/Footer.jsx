@@ -6,8 +6,8 @@ function Footer() {
   const { t } = useTranslation();
   return (
     <>
-      <footer>
-        <div className="container page-padding py-[10rem] bg-black text-white">
+      <footer className="bg-black">
+        <div className="container page-padding py-[10rem] text-white">
           {/* footer div all */}
           <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left">
             {/* logo side */}
@@ -39,7 +39,7 @@ function Footer() {
               to="/services"
               className="flex flex-col gap-3 relative w-3/12 min620:w-full text-center"
             >
-              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-signature-gold">
+              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-main">
                 {t("services.featTitle")}
               </p>
 
@@ -60,7 +60,7 @@ function Footer() {
               to="/contact"
               className="flex flex-col gap-8 relative w-4/12 min620:w-full text-center"
             >
-              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-signature-gold">
+              <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-main">
                 {t("contactUs.hours")}
               </p>
 

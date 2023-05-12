@@ -5,7 +5,6 @@ import NavList from "../Nav/NavList";
 import { NavLink } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import MobileNav from "./MobileNav";
-import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
 
 function Navbar({ admin }) {
@@ -13,7 +12,6 @@ function Navbar({ admin }) {
   const [sticky, setSticky] = useState(false);
   const [sidebar, setSideBar] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
-  const { scrollY } = useSelector((store) => store.navbar);
 
   // sidebar
   const toggleSideBar = () => {
@@ -28,7 +26,7 @@ function Navbar({ admin }) {
   useEffect(() => {
     // sticky navbar - bg black
     const handleScroll = () => {
-      if (window.scrollY > scrollY) {
+      if (window.scrollY > 10) {
         setSticky(true);
       } else {
         setSticky(false);
@@ -44,13 +42,13 @@ function Navbar({ admin }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrollY]);
+  }, []);
 
   return (
     <>
       <nav
         className={`flex flex-row items-center justify-between py-4 px-12 fixed top-0 left-0 right-0 w-full z-50 text-white ${
-          sticky ? "shadow-xl blur-bg" : "bg-transparent"
+          sticky ? "shadow-2xl blur-bg" : "bg-transparent"
         }`}
       >
         <NavLink to="/">
@@ -95,14 +93,14 @@ function Navbar({ admin }) {
             {/* mobileNav */}
             <i
               onClick={toggleMobileNav}
-              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-signature-gold ease-in duration-200`}
+              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-main ease-in duration-200`}
             ></i>
 
             {/* sidebar */}
 
             <i
               onClick={toggleSideBar}
-              className={`fa-regular fa-chart-bar text-4xl cursor-pointer hover:text-signature-gold ease-in duration-200`}
+              className={`fa-regular fa-chart-bar text-4xl cursor-pointer hover:text-main ease-in duration-200`}
             ></i>
           </div>
           {/* spin box */}
@@ -119,7 +117,7 @@ function Navbar({ admin }) {
               className="flex items-center "
             >
               <i
-                className={`fa-solid fa-plus bg-signature-gold text-2xl py-3 px-4 rounded-md nav-btn-hover `}
+                className={`fa-solid fa-plus bg-main text-2xl py-3 px-4 rounded-md nav-btn-hover `}
               ></i>
               <h3
                 className={`text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider`}

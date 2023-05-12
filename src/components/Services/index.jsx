@@ -2,9 +2,7 @@ import "./index.css";
 import { useEffect } from "react";
 // import { featServices } from "./services";
 import { useDispatch } from "react-redux";
-import { PAGE_HEADER_Y } from "../../lib/constants";
 import { useTranslation } from "react-i18next";
-import { setScrollY } from "../../features/navbar/navbarSlice";
 import PagesHeader from "../Shared/PagesHeader";
 import Featured from "./Featured";
 
@@ -14,8 +12,7 @@ const Services = () => {
 
   useEffect(() => {
     document.title = t("nav.services") + " - " + t("defaults.pageTitle");
-    dispatch(setScrollY(PAGE_HEADER_Y));
-  }, [dispatch, t]);
+  }, [t]);
 
   return (
     <>
@@ -39,7 +36,7 @@ const Services = () => {
                     {service.title}
                   </p>
 
-                  <span className="bg-signature-gold w-[50px] h-[4px]"></span>
+                  <span className="bg-main w-[50px] h-[4px]"></span>
 
                   <div className="flex gap-6 mb-14 mt-6 text-white text-[1.6rem] font-medium">
                     <p>

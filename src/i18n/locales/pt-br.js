@@ -68,6 +68,7 @@ const translations = {
         subtitle: "A equipe de profissionais que transforma seu visual!",
         description:
           "A equipe CT Fusão das Lutas é composta por profissionais experientes e dedicados que possuem uma paixão em comum: ajudar seus clientes a se sentirem bonitos e confiantes. Com uma ampla gama de serviços, desde corte de cabelo e coloração até manicure e maquiagem, nós estamos prontos para oferecer um atendimento personalizado e de alta qualidade a cada pessoa que recebemos. Além disso, estamos sempre atualizados com as últimas tendências e técnicas do mercado, garantindo que nossos clientes saiam com um visual moderno e sofisticado. Com a nossa equipe, você pode esperar um ambiente acolhedor e amigável, além de um serviço excepcional que fará você se sentir mimada e cuidada. Venha visitar-nos e descubra o que podemos fazer para transformar sue visual!",
+        trainer: "Danilo Ribeiro",
       },
       history: {
         title1: "Começou com um sonho",

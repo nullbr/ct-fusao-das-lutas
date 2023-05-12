@@ -1,17 +1,7 @@
 import TitleBg from "../../assets/images/shared/paint-stroke-gold.svg";
-
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchWorkersAsync } from "../../features/workers/workerSlice";
+import Trainer from "../../assets/images/AboutPage/trainer.png";
 
 function Professionals({ t }) {
-  const dispatch = useDispatch();
-  const { workers } = useSelector((store) => store.workers);
-
-  useEffect(() => {
-    dispatch(fetchWorkersAsync());
-  }, [dispatch]);
-
   return (
     <div className="py-20 px-10 bg-white shadow-lg rounded-xl flex flex-col gap-20">
       {/* title div -- */}
@@ -34,39 +24,30 @@ function Professionals({ t }) {
       </div>
 
       {/* professionals div -- */}
-      <div className="grid grid-cols-3 min800:grid-cols-2 justify-between gap-x-[5%] gap-y-10">
-        {workers.map((professional) => (
-          <div
-            key={professional.id}
-            className="flex flex-col justify-center text-white overflow-hidden rounded-2xl shadow-xl"
-          >
-            {/* professional img */}
-            <img
-              src={professional.imageUrl}
-              alt="professional"
-              style={{ transition: "all 0.3s" }}
-              className={`object-cover self-center hover:contrast-150`}
-            />
-            {/* professional description */}
-            <div className="flex flex-col gap-2 items-center justify-center bg-gray text-center px-5 border-b-4 border-signature-gold h-[16rem]">
-              <h3 className="font-bold text-[2.4rem] ">
-                {professional.firstName}
-              </h3>
-              <p className="font-medium text-[1.5rem]">{professional.job}</p>
-              {professional.instagram !== null && (
-                <a
-                  href={`https://www.instagram.com/${professional.instagram}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex w-full justify-center mt-5 text-[1.6rem]"
-                >
-                  <i className="fa-brands fa-instagram" />
-                  <span className="text-sm pl-1">Instagram</span>
-                </a>
-              )}
-            </div>
+      <div className="flex w-full justify-center items-center">
+        <div className="flex flex-col justify-center text-white overflow-hidden rounded-2xl shadow-xl">
+          {/* professional img */}
+          <img
+            src={Trainer}
+            alt="professional"
+            style={{ transition: "all 0.3s" }}
+            className={`object-cover self-center hover:contrast-150`}
+          />
+          {/* professional description */}
+          <div className="flex flex-col gap-2 items-center justify-center bg-gray text-center px-5 border-b-4 border-main h-[16rem]">
+            <h3 className="font-bold text-[2.4rem] ">{t("aboutUs.trainer")}</h3>
+            <p className="font-medium text-[1.5rem]">{t("aboutUs.job")}</p>
+            <a
+              href={`https://www.instagram.com/${t("defaults.instagram")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex w-full justify-center mt-5 text-[1.6rem]"
+            >
+              <i className="fa-brands fa-instagram" />
+              <span className="text-sm pl-1">Instagram</span>
+            </a>
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );

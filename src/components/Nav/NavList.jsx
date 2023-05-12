@@ -6,7 +6,7 @@ function NavList({ t }) {
       <ul className={`flex gap-9 text-[16px] font-medium xl:none`}>
         <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink id="home" exact="true" activeclassname="active" to="/">
             {t("nav.home")}
@@ -14,7 +14,7 @@ function NavList({ t }) {
         </li>
         <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink id="about" exact="true" activeclassname="active" to="/about">
             {t("nav.about")}
@@ -22,7 +22,7 @@ function NavList({ t }) {
         </li>
         <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink
             id="gallery"
@@ -35,13 +35,13 @@ function NavList({ t }) {
         </li>
         {/* <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink to={"/schedules/monday"}>{t("nav.schedules")}</NavLink>
         </li> */}
         <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink
             id="services"
@@ -54,7 +54,7 @@ function NavList({ t }) {
         </li>
         <li
           style={{ transition: "all 0.3s" }}
-          className="cursor-pointer hover:text-signature-gold"
+          className="cursor-pointer hover:text-main"
         >
           <NavLink
             id="contact"
