@@ -3,12 +3,13 @@
 }
 
 .card-item-div:hover {
-  background: rgb(25, 51, 25);
+  background: rgb(120, 176, 222);
   background: linear-gradient(
-    143deg,
-    rgba(25, 51, 25, 1) 0%,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(25, 51, 25, 1) 100%
+    326deg,
+    rgba(120, 176, 222, 1) 19%,
+    rgba(0, 81, 163, 1) 43%,
+    rgba(4, 35, 84, 1) 67%,
+    rgba(12, 12, 14, 1) 100%
   );
   color: white;
 }
