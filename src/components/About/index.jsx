@@ -1,7 +1,6 @@
 import { Suspense, lazy, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import Loader from "../Shared/Loader";
 import PagesHeader from "../Shared/PagesHeader";
 import History from "./History";
 const AboutSection = lazy(() => import("./AboutSection"));
@@ -20,7 +19,7 @@ const About = () => {
         <PagesHeader pageTitle={t("nav.about")} />
 
         <div className="container page-padding py-[5rem] min620:py-4 flex flex-col justify-center gap-20">
-          <Suspense fallback={<Loader />}>
+          <Suspense>
             <AboutSection />
             <History t={t} />
             <Professionals t={t} />

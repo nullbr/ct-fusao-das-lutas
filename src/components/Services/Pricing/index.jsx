@@ -31,11 +31,11 @@ const Pricing = () => {
           </div>
           {/* pricing boxes */}
           <div className="flex gap-10 mt-32 relative md1000:flex-col md1000:items-center ">
-            <PricingBox img={Img1} price="100" service={t("services.serv1")} />
-            <PricingBox img={Img2} price="100" service={t("services.serv2")} />
+            <PricingBox img={Img1} price="99" service={t("services.serv1")} />
+            <PricingBox img={Img2} price="99" service={t("services.serv2")} />
             <PricingBox
               img={Img3}
-              price="150"
+              price="149"
               service={`${t("services.serv1")} e ${t("services.serv2")}`}
             />
           </div>

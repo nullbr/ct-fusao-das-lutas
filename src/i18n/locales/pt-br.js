@@ -24,8 +24,8 @@ const translations = {
       schedule: "Agende",
       gallery: "Galeria",
       contact: "Contato",
-      services: "Serviços",
-      scheduleFull: "Agende sua visita",
+      services: "Aulas",
+      scheduleFull: "Treino grátis",
     },
 
     home: {
@@ -102,9 +102,9 @@ const translations = {
     },
 
     services: {
-      title: "Nossos Serviços",
-      featTitle: "Principais Serviços",
-      subtitle: "Oferecemos uma Grande Variedade de Serviços",
+      title: "Nossas Aulas",
+      featTitle: "Principais Aulas",
+      subtitle: "Oferecemos uma Grande Variedade de Aulas",
       serv1: "Jiu-Jitsu",
       serv2: "Muay Thai",
       serv3: "Judô",
