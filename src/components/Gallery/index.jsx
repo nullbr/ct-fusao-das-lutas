@@ -20,9 +20,9 @@ const Gallery = () => {
       <section className="relative">
         <PagesHeader pageTitle={t("nav.gallery")} />
 
-        <Suspense>
+        {/* <Suspense>
           <Images />
-        </Suspense>
+        </Suspense> */}
       </section>
     </>
   );

@@ -1,23 +1,23 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import LogoSide from "../../assets/images/logo/logo_full.png";
 
 const Sidebar = ({ toggleSideBar, t }) => {
-  useEffect(() => {
-    const div = document.getElementById("sidebarGallery");
-    const script = document.createElement("script");
+  // useEffect(() => {
+  //   const div = document.getElementById("sidebarGallery");
+  //   const script = document.createElement("script");
 
-    script.setAttribute(
-      "src",
-      "https://www.juicer.io/embed/dondocasr/embed-code.js?style=slider&columns=1&interval=1000"
-    );
-    script.setAttribute("async", "");
-    script.setAttribute("defer", "");
-    div.appendChild(script);
+  //   script.setAttribute(
+  //     "src",
+  //     "https://www.juicer.io/embed/dondocasr/embed-code.js?style=slider&columns=1&interval=1000"
+  //   );
+  //   script.setAttribute("async", "");
+  //   script.setAttribute("defer", "");
+  //   div.appendChild(script);
 
-    return () => {
-      div.removeChild(script);
-    };
-  }, []);
+  //   return () => {
+  //     div.removeChild(script);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -39,7 +39,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
           {/* about us */}
           <div className="flex flex-col gap-6">
             <h3 className="text-[2rem] font-bold">{t("aboutUs.title")}</h3>
-            <p className="text-[1.6rem] font-medium text-[#000000b1]">
+            <p className="text-[1.6rem] font-medium text-slate-400">
               {t("aboutUs.description")}
             </p>
           </div>
@@ -56,7 +56,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-signature-gold cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-signature-gold cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-location-dot text-signature-gold"></i>
                 &nbsp; {t("contactUs.addressLine1")}
                 <br />
@@ -70,13 +70,13 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-signature-gold cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-signature-gold cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-phone text-signature-gold"></i>
                 &nbsp; {t("contactUs.phoneNumber")}
               </p>
             </a>
             <a href={`mailto:${t("contactUs.email")}`}>
-              <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-signature-gold cursor-pointer ease-in duration-200">
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-signature-gold cursor-pointer ease-in duration-200">
                 <i className="fa-solid fa-envelope text-signature-gold"></i>
                 &nbsp; {t("contactUs.email")}
               </p>
