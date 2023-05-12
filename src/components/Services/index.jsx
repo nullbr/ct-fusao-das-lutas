@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import PagesHeader from "../Shared/PagesHeader";
 import Featured from "./Featured";
+import Pricing from "./Pricing";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ const Services = () => {
 
         <main>
           <Featured t={t} />
+          <Pricing />
         </main>
 
         {/* <div className="container grid grid-cols-3 md1000:grid-cols-2 min620:grid-cols-1 gap-12 page-padding py-[10rem] text-left">

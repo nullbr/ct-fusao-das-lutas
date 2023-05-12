@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FooterLogo from "../../assets/images/logo/logo_full.png";
 import { useTranslation } from "react-i18next";
 
@@ -34,7 +34,7 @@ function Footer() {
             </div>
 
             {/* middle div */}
-            <NavLink
+            <Link
               id="services"
               to="/services"
               className="flex flex-col gap-3 relative w-3/12 min620:w-full text-center"
@@ -52,10 +52,10 @@ function Footer() {
               <p className="text-[16px] text-[#646464] font-medium">
                 {t("services.serv3")}
               </p>
-            </NavLink>
+            </Link>
 
             {/* right div */}
-            <NavLink
+            <Link
               id="contact"
               to="/contact"
               className="flex flex-col gap-8 relative w-4/12 min620:w-full text-center"
@@ -76,7 +76,7 @@ function Footer() {
               <p className="text-[16px] text-[#646464] font-medium">
                 {t("contactUs.sunMonTime")}
               </p>
-            </NavLink>
+            </Link>
 
             {/* middle div */}
             <span></span>
