@@ -4,7 +4,7 @@ const translations = {
       pageTitle: "CT Fusão das Lutas",
       pageNotFound: "Página não encontrada",
       followUs: "Siga-nos",
-      instagram: "https://www.instagram.com/dondocasr",
+      instagram: "https://www.instagram.com/ctam_fusaodaslutas/",
       login: "Log In",
       signUp: "Cadastre-se",
       logout: "Sair",
@@ -64,19 +64,21 @@ const translations = {
       description:
         "Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.",
       team: {
-        title: "Equipe",
-        subtitle: "A equipe de profissionais que transforma seu visual!",
+        title: "Mestre",
+        subtitle:
+          "Professor de artes marciais com mais de 15 anos de experiência",
         description:
-          "A equipe CT Fusão das Lutas é composta por profissionais experientes e dedicados que possuem uma paixão em comum: ajudar seus clientes a se sentirem bonitos e confiantes. Com uma ampla gama de serviços, desde corte de cabelo e coloração até manicure e maquiagem, nós estamos prontos para oferecer um atendimento personalizado e de alta qualidade a cada pessoa que recebemos. Além disso, estamos sempre atualizados com as últimas tendências e técnicas do mercado, garantindo que nossos clientes saiam com um visual moderno e sofisticado. Com a nossa equipe, você pode esperar um ambiente acolhedor e amigável, além de um serviço excepcional que fará você se sentir mimada e cuidada. Venha visitar-nos e descubra o que podemos fazer para transformar sue visual!",
+          "Durante esse tempo, adquirí um grande conhecimento em diversas modalidades de artes marciais, bem como em metodologias de ensino e desenvolvimento de treinamento. Como um profissional experiente, sou capaz de avaliar as necessidades e habilidades dos meus alunos e ajustar nossas aulas e treinamentos de acordo, visando seu progresso e evolução. Além disso, sou um profissional dedicado e comprometido em fornecer uma experiência enriquecedora para meus alunos, ajudando-os a atingir seus objetivos e potencializando sua prática.",
         trainer: "Danilo Ribeiro",
+        job: "Professor",
       },
       history: {
         title1: "Começou com um sonho",
         description1:
-          "O CT Fusão das Lutas foi idealizado em 2010 por Juarezita Rosa que na época tinha uma carreira bem alicerçada como designer de sobrancelha, depiladora e manicure e, buscando sua independência, decidiu abrir um espaço que era um anexo de sua casa e contava com 3 profissionais. Após 2 anos de funcionamento, sua filha Gisely, até então com 18 anos, escolhe trilhar o caminho da beleza e cursar Visagismo e Terapia capilar pela Universidade Anhembi Morumbi. Juntas, elas se posicionaram no mercado de beleza sempre transmitindo a essência e individualidade de cada cliente em sua imagem, bem como receber e acolher cada cliente sempre de forma hospitaleira e carinhosa. ",
+          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.",
         title2: "Com muito esforço",
         description2:
-          "Em pouco tempo nossa equipe aumentou e buscando também alcançar o mercado de noivas escolhemos ampliar nosso espaço passando de um para cinco ambientes, com 12 profissionais na equipe, oferecendo serviços que se estendem entre estetica facial e corporal, maquiagem, penteado, corte, coloraçao e procedimentos redutores de volume.  Nesses 13 anos de caminhada muita coisa evoluiu e se transformou, sempre visando promover bem estar e um atendimento de qualidade a quem nos prestigia. ",
+          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.",
       },
     },
 

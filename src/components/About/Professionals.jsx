@@ -35,10 +35,12 @@ function Professionals({ t }) {
           />
           {/* professional description */}
           <div className="flex flex-col gap-2 items-center justify-center bg-gray text-center px-5 border-b-4 border-main h-[16rem]">
-            <h3 className="font-bold text-[2.4rem] ">{t("aboutUs.trainer")}</h3>
-            <p className="font-medium text-[1.5rem]">{t("aboutUs.job")}</p>
+            <h3 className="font-bold text-[2.4rem] ">
+              {t("aboutUs.team.trainer")}
+            </h3>
+            <p className="font-medium text-[1.5rem]">{t("aboutUs.team.job")}</p>
             <a
-              href={`https://www.instagram.com/${t("defaults.instagram")}`}
+              href={t("defaults.instagram")}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full justify-center mt-5 text-[1.6rem]"

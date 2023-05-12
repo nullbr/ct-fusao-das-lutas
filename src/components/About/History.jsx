@@ -1,5 +1,7 @@
 import Target from "../../assets/images/AboutPage/target.svg";
 import Mountain from "../../assets/images/AboutPage/mountain.svg";
+import History1 from "../../assets/images/AboutPage/history.png";
+import History2 from "../../assets/images/AboutPage/history2.png";
 
 const History = ({ t }) => {
   return (
@@ -17,7 +19,7 @@ const History = ({ t }) => {
         {/*  */}
         <div className="w-full bg-white rounded-tr-xl min800:rounded-none">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fbackground%2Fbackground_old.png?alt=media&token=2cca5e5b-a391-4097-8ab9-e6ced7786060"
+            src={History1}
             alt="about_img"
             className="w-full object-contain bg-center rounded-tr-xl min800:rounded-none"
           />
@@ -27,9 +29,9 @@ const History = ({ t }) => {
         {/*  */}
         <div className="w-full bg-white rounded-bl-xl min800:rounded-none">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/dondoca-a6bd8.appspot.com/o/assets%2Fbackground%2Fbackground_logo.png?alt=media&token=3b4017d9-927b-4b43-87d8-cbfecf5f0fb1"
+            src={History2}
             alt="about_img"
-            className="p-20 w-full object-contain bg-center"
+            className="w-full object-contain bg-center rounded-bl-xl min800:rounded-none"
           />
         </div>
         {/*  */}
