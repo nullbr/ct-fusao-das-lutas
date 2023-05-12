@@ -8,9 +8,9 @@ function Featured({ t }) {
 
   return (
     <>
-      <section className="flex justify-between py-20 min800:py-10">
+      <section className="flex justify-between">
         <div className="container page-padding">
-          <div className="p-20 min800:p-10 bg-white shadow-lg rounded-xl">
+          <div className="p-20 min800:p-10 ">
             {/* title */}
             <div className="flex flex-col text-center items-center relative ">
               <p className="font-semibold text-white text-[15px] relative uppercase z-10 ">
@@ -26,16 +26,12 @@ function Featured({ t }) {
               </h2>
             </div>
             {/* grid */}
-            <div className="grid grid-cols-4 gap-7 h-full mt-7 min800:mt-0">
+            <div className="grid grid-cols-3 gap-7 h-full mt-7 min800:mt-0">
               {featServices.map((service, idx) => {
                 return (
                   <div
                     key={idx}
-                    className={`relative h-[30rem] min800:h-[25rem] ${
-                      idx === 0
-                        ? "col-span-2 md1000:col-span-4"
-                        : "col-span-1 md1000:col-span-2 min620:col-span-4"
-                    }`}
+                    className={`relative h-[30rem] min800:h-[25rem] col-span-1 min800:col-span-3`}
                   >
                     <div
                       className="h-full w-full bg-cover bg-center brightness-50 rounded-xl"

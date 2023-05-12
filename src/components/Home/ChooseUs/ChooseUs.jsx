@@ -9,7 +9,7 @@ function ChooseUs() {
 
   return (
     <>
-      <section className="pb-10">
+      <section className="py-10 bg-slate-200">
         <div className="container page-padding">
           <div className="flex md1000:flex-col items-center gap-10 p-20 min800:p-10 md1000:justify-center bg-white shadow-lg rounded-xl">
             {/* title */}

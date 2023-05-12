@@ -1,4 +1,4 @@
-import FooterLogo from "../../../assets/images/logo/logo-footer.png";
+import FooterLogo from "../../../assets/images/logo/logo_full.png";
 import { useTranslation } from "react-i18next";
 
 function AdminFooter() {

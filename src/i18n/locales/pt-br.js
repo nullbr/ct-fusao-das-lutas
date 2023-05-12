@@ -50,11 +50,11 @@ const translations = {
       chooseUs: {
         title: "Por que nos escolher?",
         description:
-          "Se você está procurando um lugar para cuidar da sua beleza e bem-estar, o CT Fusão das Lutas é a escolha perfeita! Temos uma equipe de profissionais altamente qualificados e experientes, que estão prontos para atender todas as suas necessidades de beleza. Oferecemos uma ampla variedade de serviços, desde cortes de cabelo e coloração, até manicures e pedicures, massagens relaxantes e tratamentos de beleza para o rosto e corpo. Nosso salão é um ambiente acolhedor e confortável, com uma atmosfera descontraída e amigável.",
-        topic1: "Cuidados pessoais",
-        topic2: "Relaxamento",
-        topic3: "Atualizações de estilo",
-        topic4: "Ocasiões especiais",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos.",
+        topic1: "Campetição",
+        topic2: "Condicionamento",
+        topic3: "Perda de peso",
+        topic4: "Força",
       },
     },
 
@@ -102,13 +102,9 @@ const translations = {
       title: "Nossos Serviços",
       featTitle: "Principais Serviços",
       subtitle: "Oferecemos uma Grande Variedade de Serviços",
-      serv1: "Noiva",
-      serv2: "Maquiagem",
-      serv3: "Corte",
-      serv4: "Penteado",
-      serv5: "Sobrancelha",
-      serv6: "Estética",
-      serv7: "Manicure & Pedicure",
+      serv1: "Jiu-Jitsu",
+      serv2: "Muay Thai",
+      serv3: "Judô",
     },
 
     admin: {
