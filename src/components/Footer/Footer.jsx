@@ -37,7 +37,7 @@ function Footer() {
             <Link
               id="services"
               to="/services"
-              className="flex flex-col gap-3 relative w-3/12 min620:w-full text-center"
+              className="flex flex-col gap-5 relative w-3/12 min620:w-full text-center"
             >
               <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-secondary">
                 {t("services.featTitle")}
@@ -58,23 +58,23 @@ function Footer() {
             <Link
               id="contact"
               to="/contact"
-              className="flex flex-col gap-8 relative w-4/12 min620:w-full text-center"
+              className="flex flex-col gap-5 relative w-4/12 min620:w-full text-center"
             >
               <p className="text-[22px] font-bold underline underline-offset-8 decoration-4 decoration-secondary">
                 {t("contactUs.hours")}
               </p>
 
               <p className="text-[16px]  text-[#646464] font-bold">
-                {t("contactUs.tueSat")}:
+                {t("contactUs.lineTitle1")}:
               </p>
               <p className="text-[16px] text-[#646464] font-medium">
-                {t("contactUs.tueSatTime")}:
+                <p>{t("contactUs.line1")}</p>
               </p>
               <p className="text-[16px] text-[#646464] font-bold ">
-                {t("contactUs.sunMon")}:
+                {t("contactUs.lineTitle2")}:
               </p>
               <p className="text-[16px] text-[#646464] font-medium">
-                {t("contactUs.sunMonTime")}
+                <p>{t("contactUs.line2")}</p>
               </p>
             </Link>
 

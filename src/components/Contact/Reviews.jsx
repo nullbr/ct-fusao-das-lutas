@@ -21,7 +21,7 @@ const Reviews = ({ t }) => {
 
   return (
     <a
-      href="https://search.google.com/local/writereview?placeid=ChIJj6e1HqwSz5QRdT5kosP0mm4"
+      href="https://search.google.com/local/writereview?placeid=ChIJVSSjvRkZxJQRIfyo1l26xYg"
       target="_blank"
       rel="noopener noreferrer"
       className="flex justify-between py-20 h-full bg-black shadow-xl rounded-xl items-center"
@@ -33,7 +33,7 @@ const Reviews = ({ t }) => {
               {t("home.reviews")}
             </h3>
           </div>
-          <div className="elfsight-app-0515e225-0af6-4cb1-b9cf-b76009e5dfae"></div>
+          <div className="elfsight-app-27de0d42-b15b-40d4-9421-fe3cde1bc549"></div>
           <div className="relative w-[70%] h-20 -top-20 -mb-[10rem] mx-auto bg-black z-[99999]"></div>
         </div>
       </div>

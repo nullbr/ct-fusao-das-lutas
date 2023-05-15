@@ -30,7 +30,7 @@ const Schedule = () => {
       <section>
         <PagesHeader pageTitle="Schedule by Day" />
 
-        <main className="pb-10">
+        <main className="w-screen max-w-[100vw] pb-10">
           {/* schedule */}
           <div className="container page-padding pt-20 min620:pt-10">
             {/* fiter buttons */}

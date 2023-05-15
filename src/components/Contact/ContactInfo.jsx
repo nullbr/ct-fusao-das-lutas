@@ -30,12 +30,10 @@ const ContactInfo = ({ t }) => {
             {t("contactUs.hours")}
           </h3>
           <div className="text-[15px] font-medium text-[#646464]">
-            <p>
-              {t("contactUs.tueSat")}: {t("contactUs.tueSatTime")}
-            </p>
-            <p>
-              {t("contactUs.sunMon")}: {t("contactUs.sunMonTime")}
-            </p>
+            <p className="font-bold">{t("contactUs.lineTitle1")}:</p>
+            <p>{t("contactUs.line1")}</p>
+            <p className="font-bold">{t("contactUs.lineTitle2")}:</p>
+            <p>{t("contactUs.line2")}</p>
           </div>
         </div>
         {/* contact info */}

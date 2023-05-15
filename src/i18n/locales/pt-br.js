@@ -32,7 +32,7 @@ const translations = {
       gallery: "Galeria",
       contact: "Contato",
       services: "Aulas",
-      scheduleFull: "Treino grátis",
+      scheduleFull: "Aula Experimental",
     },
 
     home: {
@@ -91,9 +91,10 @@ const translations = {
 
     contactUs: {
       title: "Contate-nos",
-      subTitle: "Estamos aqui para te ajudar! Agende agora mesmo seu horário.",
+      subTitle:
+        "Estamos aqui para te ajudar! Agende agora mesmo uma aula experimental.",
       pitch:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos.",
+        "As artes marciais não são apenas uma forma de se exercitar e manter a forma física, elas também ajudam a desenvolver habilidades mentais como disciplina, autocontrole, respeito, concentração e confiança. É uma oportunidade incrível para melhorar a sua qualidade de vida e encontrar um hobby que te trará muitos benefícios. Então, se você está interessado em fazer uma aula experimental gratuita e descobrir tudo o que as artes marciais podem oferecer, entre em contato conosco agora mesmo para agendar a sua visita à nossa escola. Não perca essa oportunidade de fazer parte de uma comunidade incrível de praticantes de artes marciais.",
       address: "Endereço",
       addressLine1: "Avenida Bandeirantes, 461,",
       addressLine2: "Jardim Bandeirantes, São Roque",
@@ -102,10 +103,10 @@ const translations = {
       phoneNumberInteger: "15996238931",
       email: "ct@gmail.com",
       hours: "Horário de Funcionamento",
-      tueSat: "Terça - Sábado",
-      tueSatTime: "9:00 - 18:00",
-      sunMon: "Domingo - Segunda",
-      sunMonTime: "Fechado",
+      lineTitle1: "Segunda, Quarta e Quinta",
+      line1: "7:00 - 8:00 / 19:30 - 21:30",
+      lineTitle2: "Terça e Quita",
+      line2: "18:00 - 21:00",
     },
 
     services: {
