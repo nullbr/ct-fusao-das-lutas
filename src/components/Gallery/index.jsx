@@ -15,12 +15,9 @@ const Gallery = () => {
       <section className="relative">
         <PagesHeader pageTitle={t("nav.gallery")} />
 
-        <main className="flex justify-center w-full bg-red-500">
-          <h1 className="text-[3.5rem]">Adicionar images do Instagram</h1>
-        </main>
-        {/* <Suspense>
+        <Suspense>
           <Images />
-        </Suspense> */}
+        </Suspense>
       </section>
     </>
   );

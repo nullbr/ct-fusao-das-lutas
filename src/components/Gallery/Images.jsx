@@ -7,7 +7,7 @@ const Images = () => {
 
     script.setAttribute(
       "src",
-      "https://www.juicer.io/embed/dondocasr/embed-code.js?per=20&truncate=150"
+      "https://www.juicer.io/embed/ctam_fusaodaslutas/embed-code.js?per=20&truncate=150"
     );
     script.setAttribute("async", "");
     script.setAttribute("defer", "");

@@ -1,23 +1,23 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import LogoSide from "../../assets/images/logo/logo_full.png";
 
 const Sidebar = ({ toggleSideBar, t }) => {
-  // useEffect(() => {
-  //   const div = document.getElementById("sidebarGallery");
-  //   const script = document.createElement("script");
+  useEffect(() => {
+    const div = document.getElementById("sidebarGallery");
+    const script = document.createElement("script");
 
-  //   script.setAttribute(
-  //     "src",
-  //     "https://www.juicer.io/embed/dondocasr/embed-code.js?style=slider&columns=1&interval=1000"
-  //   );
-  //   script.setAttribute("async", "");
-  //   script.setAttribute("defer", "");
-  //   div.appendChild(script);
+    script.setAttribute(
+      "src",
+      "https://www.juicer.io/embed/ctam_fusaodaslutas/embed-code.js?style=slider&columns=1&interval=1000"
+    );
+    script.setAttribute("async", "");
+    script.setAttribute("defer", "");
+    div.appendChild(script);
 
-  //   return () => {
-  //     div.removeChild(script);
-  //   };
-  // }, []);
+    return () => {
+      div.removeChild(script);
+    };
+  }, []);
 
   return (
     <>
