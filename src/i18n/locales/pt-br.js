@@ -67,9 +67,11 @@ const translations = {
 
     aboutUs: {
       title: "Sobre Nós",
-      subtitle: "Take Your Health And Body To Next Level",
+      subtitle: "Transformando corpo e mente com artes marciais",
       description:
-        "Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.",
+        "Nossa escola de artes marciais liderada pelo Professor Danilo é um lugar onde você pode aprender e se desenvolver em diversas modalidades, enquanto se diverte e se desafia. O Professor Danilo é um profissional altamente qualificado e dedicado a ajudar seus alunos a atingirem seus objetivos e potencializar sua prática. Na nossa escola, você encontrará um ambiente acolhedor, respeitoso e inclusivo, onde poderá se sentir à vontade para se desafiar, crescer e se superar a cada aula. Venha fazer parte da nossa comunidade de praticantes de artes marciais e transforme sua mente e seu corpo enquanto se diverte!",
+      shortDescription:
+        "Nossa escola de artes marciais liderada pelo Professor Danilo é um lugar onde você pode aprender e se desenvolver em diversas modalidades, enquanto se diverte e se desafia.",
       team: {
         title: "Mestre",
         subtitle:
@@ -96,12 +98,12 @@ const translations = {
       pitch:
         "As artes marciais não são apenas uma forma de se exercitar e manter a forma física, elas também ajudam a desenvolver habilidades mentais como disciplina, autocontrole, respeito, concentração e confiança. É uma oportunidade incrível para melhorar a sua qualidade de vida e encontrar um hobby que te trará muitos benefícios. Então, se você está interessado em fazer uma aula experimental gratuita e descobrir tudo o que as artes marciais podem oferecer, entre em contato conosco agora mesmo para agendar a sua visita à nossa escola. Não perca essa oportunidade de fazer parte de uma comunidade incrível de praticantes de artes marciais.",
       address: "Endereço",
-      addressLine1: "Avenida Bandeirantes, 461,",
-      addressLine2: "Jardim Bandeirantes, São Roque",
-      addressUrl: "https://goo.gl/maps/q4x2UqMaYrjNhThaA",
+      addressLine1: "R. Franco Póli, 126 A,",
+      addressLine2: "Centro, Campina do Monte Alegre - SP",
+      addressUrl: "https://goo.gl/maps/QNzCdiHwGyyuxbsd6?coh=178573&entry=tt",
       phoneNumber: "(15)99623-8931",
       phoneNumberInteger: "15996238931",
-      email: "ct@gmail.com",
+      email: "fusaodaslutas@outlook.com",
       hours: "Horário de Funcionamento",
       lineTitle1: "Segunda, Quarta e Quinta",
       line1: "7:00 - 8:00 / 19:30 - 21:30",

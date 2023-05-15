@@ -108,7 +108,7 @@ function Navbar({ admin }) {
             <a
               href={`https://wa.me/${t(
                 "contactUs.phoneNumberInteger"
-              )}?text=Ol%C3%A1%21+gostaria+de+agendar+uma+visita.`}
+              )}?text=Ol%C3%A1%21+gostaria+de+agendar+uma+aula+experimental`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center "

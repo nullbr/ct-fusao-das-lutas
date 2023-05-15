@@ -40,7 +40,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
           <div className="flex flex-col gap-6">
             <h3 className="text-[2rem] font-bold">{t("aboutUs.title")}</h3>
             <p className="text-[1.6rem] font-medium text-slate-400">
-              {t("aboutUs.description")}
+              {t("aboutUs.shortDescription")}
             </p>
           </div>
           {/* gallery */}
@@ -66,7 +66,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
             <a
               href={`https://wa.me/${t(
                 "contactUs.phoneNumberInteger"
-              )}?text=Ol%C3%A1%21+gostaria+de+agendar+uma+visita.`}
+              )}?text=Ol%C3%A1%21+gostaria+de+agendar+uma+aula+experimental`}
               target="_blank"
               rel="noopener noreferrer"
             >

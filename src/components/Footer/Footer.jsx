@@ -18,7 +18,7 @@ function Footer() {
                 className="w-[18rem] min620:self-center"
               />
               <p className="text-[15px] font-medium text-[#646464]">
-                {t("aboutUs.description")}
+                {t("aboutUs.shortDescription")}
               </p>
               <p className="text-[16px] font-medium text-[#646464]">
                 Privacy Policy | © {new Date().getFullYear()} CT Fusão das Lutas{" "}
