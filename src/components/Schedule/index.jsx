@@ -28,7 +28,7 @@ const Schedule = () => {
   return (
     <>
       <section>
-        <PagesHeader pageTitle="Schedule by Day" />
+        <PagesHeader pageTitle="Agenda de Aulas" />
 
         <main className="w-screen max-w-[100vw] pb-10">
           {/* schedule */}

@@ -41,7 +41,7 @@ const translations = {
         quality: {
           title: "Qualidade",
           description:
-            "Nosso time de profissionais são qualificados e experientes, e todos serviços prestados são de alta qualidade.",
+            "Garantimos o bem estar dos alunos para que todos possam se desenvolver enquanto se diverte.",
         },
         space: {
           title: "Progresso",
@@ -51,17 +51,8 @@ const translations = {
         price: {
           title: "Preços",
           description:
-            "Temos preços justos para todos serviços prestados. Também oferecemos promoções especiais e pacotes.",
+            "Temos preços justos para todas as modalidades. Também oferecemos promoções especiais e pacotes.",
         },
-      },
-      chooseUs: {
-        title: "Por que nos escolher?",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos.",
-        topic1: "Campetição",
-        topic2: "Condicionamento",
-        topic3: "Perda de peso",
-        topic4: "Força",
       },
     },
 
