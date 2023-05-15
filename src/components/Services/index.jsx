@@ -1,6 +1,5 @@
 import "./index.css";
 import { useEffect } from "react";
-// import { featServices } from "./services";
 import { useTranslation } from "react-i18next";
 import PagesHeader from "../Shared/PagesHeader";
 import Featured from "./Featured";
@@ -18,10 +17,8 @@ const Services = () => {
       <section>
         <PagesHeader pageTitle={t("nav.services")} />
 
-        <main>
-          <Featured t={t} />
-          <Pricing />
-        </main>
+        <Featured t={t} />
+        <Pricing />
 
         {/* <div className="container grid grid-cols-3 md1000:grid-cols-2 min620:grid-cols-1 gap-12 page-padding py-[10rem] text-left">
           {featServices.map((service, idx) => {

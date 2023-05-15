@@ -68,13 +68,13 @@ function Footer() {
                 {t("contactUs.lineTitle1")}:
               </p>
               <p className="text-[16px] text-[#646464] font-medium">
-                <p>{t("contactUs.line1")}</p>
+                {t("contactUs.line1")}
               </p>
               <p className="text-[16px] text-[#646464] font-bold ">
                 {t("contactUs.lineTitle2")}:
               </p>
               <p className="text-[16px] text-[#646464] font-medium">
-                <p>{t("contactUs.line2")}</p>
+                {t("contactUs.line2")}
               </p>
             </Link>
 

@@ -1,23 +1,24 @@
+import judoImg from "../../assets/images/services/judo.png";
+import jiuImg from "../../assets/images/services/jiujitsu1.png";
+import muayImg from "../../assets/images/services/muaythai2.png";
+
 export const featServices = [
   {
-    bgImg:
-      "https://gymate-stefvndev.vercel.app/static/media/workout.7862f3caad74194917b6.jpg",
+    bgImg: jiuImg,
     title: "Jiu-Jitsu",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.",
+      "Arte marcial focada na luta no chão com técnicas de imobilização, estrangulamentos e chaves articulares, desenvolvendo habilidades físicas e mentais.",
   },
   {
-    bgImg:
-      "https://gymate-stefvndev.vercel.app/static/media/workout.7862f3caad74194917b6.jpg",
+    bgImg: muayImg,
     title: "Muay Thai",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.",
+      "Arte marcial originária da Tailândia, com foco em golpes de contato total utilizando os punhos, cotovelos, joelhos e pernas. É uma forma excelente de condicionamento físico e autodefesa.",
   },
   {
-    bgImg:
-      "https://gymate-stefvndev.vercel.app/static/media/workout.7862f3caad74194917b6.jpg",
+    bgImg: judoImg,
     title: "Judô",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.",
+      "Arte marcial japonesa que se concentra em técnicas de arremesso e imobilização, com ênfase na autodisciplina e desenvolvimento físico e mental.",
   },
 ];

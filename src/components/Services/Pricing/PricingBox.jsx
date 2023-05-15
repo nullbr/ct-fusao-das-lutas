@@ -3,12 +3,16 @@ import MainButton from "../../Shared/MainButton";
 function PricingBox({ img, price, service }) {
   return (
     <>
-      <div className="flex flex-col w-1/3 md1000:w-[40rem] bg-white shadow-xl relative min540:w-[100%]">
+      <div className="flex flex-col w-1/3 md1000:w-[40rem] bg-white shadow-xl rounded-2xl relative min540:w-[100%]">
         <div
           style={{ transition: "all 0.3s" }}
           className="relative grayscale hover:grayscale-0"
         >
-          <img src={img} alt="pricing_img" className="w-full h-full" />
+          <img
+            src={img}
+            alt="pricing_img"
+            className="w-full h-full rounded-t-2xl"
+          />
           <div className="absolute bg-white text-[20px] font-bold w-[25rem] text-center py-6 text-secondary -bottom-[18px] left-0 right-0 mx-auto">
             {service}
           </div>

@@ -114,7 +114,9 @@ const translations = {
     services: {
       title: "Nossas Aulas",
       featTitle: "Principais Aulas",
-      subtitle: "Oferecemos uma Grande Variedade de Aulas",
+      subtitle: "Modalidades oferecidas",
+      description:
+        "Descubra as modalidades de artes marciais que oferecemos e comece a treinar com a gente!",
       serv1: "Jiu-Jitsu",
       serv2: "Muay Thai",
       serv3: "Judô",
