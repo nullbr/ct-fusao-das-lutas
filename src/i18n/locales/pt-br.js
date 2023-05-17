@@ -5,6 +5,7 @@ const translations = {
       pageNotFound: "Página não encontrada",
       followUs: "Siga-nos",
       instagram: "https://www.instagram.com/ctam_fusaodaslutas/",
+      scheduleLink: "https://app.tecnofit.com.br/tfRedirect?u=7081C9BFF552",
       login: "Log In",
       signUp: "Cadastre-se",
       logout: "Sair",

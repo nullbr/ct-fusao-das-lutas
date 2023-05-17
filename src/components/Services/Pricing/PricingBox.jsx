@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import MainButton from "../../Shared/MainButton";
 
 function PricingBox({ img, price, service }) {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="flex flex-col w-1/3 md1000:w-[40rem] bg-white shadow-xl rounded-2xl relative min540:w-[100%]">
@@ -37,14 +40,15 @@ function PricingBox({ img, price, service }) {
             <p>Cycling</p>
           </div> */}
 
-          <MainButton
-            color="!text-white"
-            bg="bg-secondary"
-            text="Agendar"
-            arrowColor="!text-white"
-            cN="hover:bg-main"
-            goTo="/contact"
-          />
+          <a
+            href={t("defaults.scheduleLink")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center text-slate-200 bg-main uppercase text-[1.5rem] font-bold py-3 px-10 rounded-full"
+          >
+            Agendar &nbsp;
+            <i className="fa-solid fa-arrow-right"></i>
+          </a>
         </div>
       </div>
     </>

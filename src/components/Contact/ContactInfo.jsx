@@ -4,9 +4,27 @@ const ContactInfo = ({ t }) => {
       <h2 className="text-center text-black text-[3.4rem] min620:text-[2.5rem] font-bold leading-[1.2]">
         {t("contactUs.subTitle")}
       </h2>
-      <p className="md1000:text-justify text-[16px] w-[95%] text-[#646464] font-medium my-[40px]">
+
+      <p className="md1000:text-justify text-[16px] text-center w-[95%] text-[#646464] font-medium mt-20">
         {t("contactUs.pitch")}
       </p>
+
+      {/* call to action */}
+      <div className="bg-main text-white p-4 rounded-full my-10 shadow-lg">
+        <a
+          href={t("defaults.scheduleLink")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center"
+        >
+          {/* <i className="fa-solid fa-plus bg-secondary text-2xl py-3 px-4 rounded-md nav-btn-hover"></i> */}
+          <h3 className="text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
+            Agendar Aula Experimental
+          </h3>
+        </a>
+      </div>
+      {/* end button */}
+
       <div className="grid grid-cols-2 grid-rows-2 gap-y-20 min620:grid-cols-1 min620:mx-auto min620:text-center">
         <div className="flex flex-col relative">
           <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">

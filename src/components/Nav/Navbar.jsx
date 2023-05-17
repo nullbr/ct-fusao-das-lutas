@@ -90,35 +90,29 @@ function Navbar({ admin }) {
               )}
             </div>
 
-            {/* mobileNav */}
-            <i
-              onClick={toggleMobileNav}
-              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-secondary ease-in duration-200`}
-            ></i>
-
             {/* sidebar */}
             <i
               onClick={toggleSideBar}
               className={`fa-regular fa-chart-bar text-4xl cursor-pointer hover:text-secondary ease-in duration-200`}
             ></i>
+
+            {/* mobileNav */}
+            <i
+              onClick={toggleMobileNav}
+              className={`fa-bars fa-solid hidden text-4xl cursor-pointer hover:text-secondary ease-in duration-200`}
+            ></i>
           </div>
 
           {/* spin box */}
-          <div className="border-solid border-2  p-2 rounded-md min620:hidden border-[rgb(255,255,255,0.3)]">
+          <div className="min620:hidden border-solid border-2  p-2 rounded-md border-[rgb(255,255,255,0.3)]">
             <a
-              href={`https://wa.me/${t(
-                "contactUs.phoneNumberInteger"
-              )}?text=Ol%C3%A1%21+gostaria+de+agendar+uma+aula+experimental`}
+              href={t("defaults.scheduleLink")}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center "
             >
-              <i
-                className={`fa-solid fa-plus bg-secondary text-2xl py-3 px-4 rounded-md nav-btn-hover `}
-              ></i>
-              <h3
-                className={`text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider`}
-              >
+              <i className="fa-solid fa-plus bg-secondary text-2xl py-3 px-4 rounded-md nav-btn-hover"></i>
+              <h3 className="text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
                 {t("nav.scheduleFull")}
               </h3>
             </a>
