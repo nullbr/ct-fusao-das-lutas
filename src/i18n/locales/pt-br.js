@@ -74,11 +74,9 @@ const translations = {
       },
       history: {
         title1: "Começou com um sonho",
-        description1:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.",
+        description1: "",
         title2: "Com muito esforço",
-        description2:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.",
+        description2: "",
       },
     },
 
