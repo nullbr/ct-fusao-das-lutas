@@ -1,5 +1,6 @@
 import TitleBg from "../../assets/images/shared/paint-stroke-gold.svg";
 import Trainer from "../../assets/images/AboutPage/trainer.png";
+import { FaInstagram } from "react-icons/fa6";
 
 function Professionals({ t }) {
   return (
@@ -45,7 +46,7 @@ function Professionals({ t }) {
               rel="noopener noreferrer"
               className="flex w-full justify-center mt-5 text-[1.6rem]"
             >
-              <i className="fa-brands fa-instagram" />
+              <FaInstagram />
               <span className="text-sm pl-1">Instagram</span>
             </a>
           </div>

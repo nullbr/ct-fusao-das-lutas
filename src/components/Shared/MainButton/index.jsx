@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./index.css";
+import { FaArrowRight } from "react-icons/fa6";
 
 function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
   const goTop = () => {
@@ -17,8 +18,12 @@ function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
         hover || ""
       }`}
     >
-      {text} &nbsp;
-      <i className={`fa-solid fa-arrow-right ${arrowColor || ""}`}></i>
+      <div className="flex items-center justify-center">
+        {text} &nbsp;
+        <FaArrowRight
+          className={`w-6 h-auto inline-block ${arrowColor || ""}`}
+        />
+      </div>
     </Link>
   );
 }

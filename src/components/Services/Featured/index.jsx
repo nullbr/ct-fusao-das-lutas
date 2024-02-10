@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import TitleBg from "../../../assets/images/shared/paint-stroke-gold.svg";
 import MainButton from "../../Shared/MainButton";
 import { featServices } from "../services";
+import { FaCircleInfo } from "react-icons/fa6";
 
 function Featured({ t }) {
   const location = useLocation();
@@ -48,8 +49,8 @@ function Featured({ t }) {
                       </div>
                     </div>
                     <div>
-                      <p className="mb-14 mt-6 text-[1.6rem] font-medium px-5 text-white">
-                        <i className="fa fa-info-circle pr-5" />
+                      <p className="mb-14 mt-6 text-[1.6rem] font-medium px-5 text-white flex items-center">
+                        <FaCircleInfo className="text-main pr-5" />
                         {service.description}
                       </p>
                     </div>

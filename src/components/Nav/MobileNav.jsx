@@ -1,3 +1,4 @@
+import { FaPlus, FaXmark } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
 const MobileNav = ({ toggleMobileNav, mobileNav, t }) => {
@@ -10,11 +11,11 @@ const MobileNav = ({ toggleMobileNav, mobileNav, t }) => {
       <div className="flex">
         <div className="blur-bg flex justify-end h-screen py-[3rem] px-10 w-full">
           {/* links */}
-          <ul className="flex flex-col gap-10 text-center w-full">
-            <i
+          <ul className="flex flex-col gap-10 text-center w-full items-center">
+            <FaXmark
+              className="text-secondary w-10 h-auto text-end pb-10"
               onClick={toggleMobileNav}
-              className="fa-solid fa-xmark text-secondary text-[3.3rem] text-end pb-10"
-            ></i>
+            />
 
             {/* Client nav Links */}
             <li onClick={toggleMobileNav}>
@@ -95,7 +96,9 @@ const MobileNav = ({ toggleMobileNav, mobileNav, t }) => {
                 <h3 className="text-[14px] font-bold uppercase tracking-wider">
                   {t("nav.scheduleFull")}
                 </h3>
-                <i className="fa-solid fa-plus bg-secondary text-2xl rounded-md py-3 w-full text-center shadow-sm shadow-white"></i>
+                <div className="bg-secondary shadow-white w-full flex items-center justify-center shadow-sm">
+                  <FaPlus className="w-8 h-auto rounded-md py-3" />
+                </div>
               </a>
             </li>
           </ul>

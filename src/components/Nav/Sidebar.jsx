@@ -1,5 +1,12 @@
 import { useEffect } from "react";
 import LogoSide from "../../assets/images/logo/logo_full.png";
+import {
+  FaEnvelope,
+  FaInstagram,
+  FaLocationDot,
+  FaPhone,
+  FaXmark,
+} from "react-icons/fa6";
 
 const Sidebar = ({ toggleSideBar, t }) => {
   useEffect(() => {
@@ -31,10 +38,10 @@ const Sidebar = ({ toggleSideBar, t }) => {
               alt="logo_img"
               className="w-2/3 max-w-[30rem]"
             />
-            <i
+            <FaXmark
+              className="text-main w-10 h-auto cursor-pointer"
               onClick={toggleSideBar}
-              className="fa-solid fa-xmark text-main text-[3.3rem] cursor-pointer"
-            ></i>
+            />
           </div>
           {/* about us */}
           <div className="flex flex-col gap-6">
@@ -56,12 +63,14 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
-                <i className="fa-solid fa-location-dot text-main"></i>
-                &nbsp; {t("contactUs.addressLine1")}
-                <br />
-                {t("contactUs.addressLine2")}
-              </p>
+              <div className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200 flex items-center">
+                <FaLocationDot className="text-main w-8 h-auto" />
+                <p>
+                  &nbsp; {t("contactUs.addressLine1")}
+                  <br />
+                  {t("contactUs.addressLine2")}
+                </p>
+              </div>
             </a>
             <a
               href={`https://wa.me/${t(
@@ -70,14 +79,14 @@ const Sidebar = ({ toggleSideBar, t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
-                <i className="fa-solid fa-phone text-main"></i>
+              <p className="flex items-center text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
+                <FaPhone className="text-main" />
                 &nbsp; {t("contactUs.phoneNumber")}
               </p>
             </a>
             <a href={`mailto:${t("contactUs.email")}`}>
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
-                <i className="fa-solid fa-envelope text-main"></i>
+              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200 flex items-center">
+                <FaEnvelope className="text-main" />
                 &nbsp; {t("contactUs.email")}
               </p>
             </a>
@@ -92,7 +101,7 @@ const Sidebar = ({ toggleSideBar, t }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa-brands fa-instagram text-[2.2rem] text-white"></i>
+                  <FaInstagram className="text-[2.2rem] text-white" />
                 </a>
               </span>
             </div>

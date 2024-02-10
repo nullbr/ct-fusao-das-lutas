@@ -2,6 +2,7 @@ import "./Hero.css";
 import HeroImg from "../../../assets/images/logo/hero.png";
 import MainButton from "../../Shared/MainButton";
 import { useTranslation } from "react-i18next";
+import { FaInstagram } from "react-icons/fa6";
 
 function Hero() {
   const { t } = useTranslation();
@@ -42,7 +43,7 @@ function Hero() {
           </p>
           <span className="w-[35px] bg-main h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
-            <i className="fa-brands rotate-90 hover:text-secondary  fa-instagram text-3xl cursor-pointer ease-in duration-200 min800:rotate-0"></i>
+            <FaInstagram className="rotate-90 hover:text-secondary text-3xl cursor-pointer ease-in duration-200 min800:rotate-0" />
           </div>
         </a>
       </section>

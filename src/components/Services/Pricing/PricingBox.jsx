@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import MainButton from "../../Shared/MainButton";
+import { FaArrowRight } from "react-icons/fa6";
 
 function PricingBox({ img, price, service }) {
   const { t } = useTranslation();
@@ -47,7 +47,7 @@ function PricingBox({ img, price, service }) {
             className="text-center text-slate-200 bg-main uppercase text-[1.5rem] font-bold py-3 px-10 rounded-full"
           >
             Agendar &nbsp;
-            <i className="fa-solid fa-arrow-right"></i>
+            <FaArrowRight className="w-4 h-auto inline-block" />
           </a>
         </div>
       </div>

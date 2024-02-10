@@ -1,3 +1,5 @@
+import { FaEnvelope, FaInstagram, FaPhone } from "react-icons/fa6";
+
 const ContactInfo = ({ t }) => {
   return (
     <div className="md1000:w-[60%] md1000:flex md1000:flex-col md1000:mx-auto min800:w-[90%]">
@@ -17,7 +19,6 @@ const ContactInfo = ({ t }) => {
           rel="noopener noreferrer"
           className="flex items-center justify-center"
         >
-          {/* <i className="fa-solid fa-plus bg-secondary text-2xl py-3 px-4 rounded-md nav-btn-hover"></i> */}
           <h3 className="text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
             Agendar Aula Experimental
           </h3>
@@ -67,14 +68,14 @@ const ContactInfo = ({ t }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
-                <i className="fa-solid fa-phone text-main"></i>
+              <p className="flex items-center text-[1.6rem] font-medium  hover:text-secondary cursor-pointer ease-in duration-200 text-slate-400">
+                <FaPhone className="text-main" />
                 &nbsp; {t("contactUs.phoneNumber")}
               </p>
             </a>
             <a href={`mailto:${t("contactUs.email")}`}>
-              <p className="text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
-                <i className="fa-solid fa-envelope text-main"></i>
+              <p className="flex items-center text-[1.6rem] font-medium text-slate-400 hover:text-secondary cursor-pointer ease-in duration-200">
+                <FaEnvelope className="text-main" />
                 &nbsp; {t("contactUs.email")}
               </p>
             </a>
@@ -85,14 +86,16 @@ const ContactInfo = ({ t }) => {
           <h3 className="text-[2rem] font-bold mb-10 underline underline-offset-8 decoration-4 decoration-secondary">
             {t("defaults.followUs")}
           </h3>
-          <a
-            href={t("defaults.instagram")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[18px] font-medium text-black flex gap-5"
-          >
-            <i className="fa-brands fa-instagram p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-main ease-in duration-200 hover:text-white"></i>
-          </a>
+          <div>
+            <a
+              href={t("defaults.instagram")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[18px] font-medium text-black flex gap-5 p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-main ease-in duration-200 hover:text-white"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
     </div>
