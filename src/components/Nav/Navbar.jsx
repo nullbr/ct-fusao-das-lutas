@@ -99,7 +99,7 @@ function Navbar({ admin }) {
 
             {/* mobileNav */}
             <FaBars
-              className="flex text-4xl cursor-pointer hover:text-secondary ease-in duration-200"
+              className="hidden md1200:flex text-4xl cursor-pointer hover:text-secondary ease-in duration-200"
               onClick={toggleMobileNav}
             />
           </div>
